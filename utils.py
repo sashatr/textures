@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def get_features(image, model, layers):
@@ -53,3 +54,14 @@ def get_weights(number_layers):
         weights.extend(w)
 
     return weights
+
+
+def show(images):
+    fig, axes = plt.subplots(1, 3)
+    for idx, img in enumerate(images):
+        axes[idx].imshow(img, cmap="gray")
+
+    fig.set_figwidth(110)
+    fig.set_figheight(110)
+
+    plt.show()
