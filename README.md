@@ -7,7 +7,19 @@
 
 -----
 
-## Below is an example of the results
+## Below is an example of the results for full images and patches
+
+#### Origin patches:
+
+![Alt text](data/imgs/origin_patches.png)
+
+-----
+
+#### Using two first layers for patches
+
+![Alt text](data/imgs/first_two_layers_patches.png)
+
+-----
 
 #### Origin images:
 
@@ -33,7 +45,7 @@
 
 -----
 
-#### Using wto first layers
+#### Using two first layers
 
 *Merger tensor by maximum values*
 ![Alt text](data/imgs/fwo_first_layers_max.png)
