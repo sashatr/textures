@@ -2,9 +2,8 @@
 
 -----
 
-#### Using a pretrained convolutional network to get texture. 
-#### According to the [original paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) not the entire list of layers is used, 
-#### but only a part to get the *Style Features (conv1_1, conv2_1, conv3_1, conv4_1, conv5_1)*.
+#### The pretrained convolutional network (VGG 19) is used to get texture.
+#### For getting the Style Features  are used layers from the list (conv1_1, conv2_1, conv3_1, conv4_1, conv5_1) based on [original paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). 
 
 -----
 
